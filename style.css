@@ -46,8 +46,18 @@ footer .container .row {
     height: 1000px;
 }
 
+.pFirst, .pSecond {
+  text-align: justify;
+}
 
 
+
+
+
+
+.clear {
+  clear:both;
+}
 
 .dashboard {
     
@@ -69,10 +79,21 @@ ul hr {
   background-color: darkblue;
 }
 
+body {
+  min-height: 2000px;
+}
+
+.dash {
+  position: fixed;
+  top: 50px;
+  height: 100%;
+}
 
 
-
-
+.konten {
+  position: relative;
+  top: 50px;
+}
 
 
 
