@@ -46,6 +46,12 @@ footer .container .row {
     height: 1000px;
 }
 
+.pFirst, .pSecond {
+  text-align: justify;
+}
+
+
+
 
 
 
@@ -78,9 +84,9 @@ body {
 }
 
 .dash {
-  position: sticky;
+  position: fixed;
   top: 50px;
-  height: 607px;
+  height: 100%;
 }
 
 
