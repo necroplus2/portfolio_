@@ -67,6 +67,7 @@ div .img-thumbnail {
   bottom: 0;
   background-color: rgba(0, 0, 0, .7);
   /* opacity: .60; */
+  padding-top: 6%;
 }
 
 .container2 {
@@ -74,12 +75,12 @@ div .img-thumbnail {
   position: relative;
   height: 500px;
   width: 1000px;
-  top: 60px;
-  left: 150px;
+  /* top: 60px;
+  left: 150px; */
 }
 
 .galer img {
-  width: 800px;
+  width: 650px;
   border: 5px solid salmon;
   border-radius: 40px;
 }
@@ -96,10 +97,11 @@ div .img-thumbnail {
   top: 0px;
   left: 850px;
   z-index: 1;
-  transition: .3ss;
+  transition: .5s;
 }
 .galer .closeImg:hover {
   border: 7px solid lightskyblue;
+  background-color: #222;
 }
 
 
