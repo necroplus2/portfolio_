@@ -31,7 +31,25 @@ imgGaleri.forEach(function(e){
       container2.remove();
       closeImg.remove();
       galerImg.remove();
-    })
+    });
+
+    document.body.addEventListener('keydown', function(esc) {
+      if (esc.key == "Escape") {
+        galer.remove();
+        container2.remove();
+        closeImg.remove();
+        galerImg.remove();
+      }
+    });
+
+    galer.addEventListener('click', function(con){
+      if( con.path[0] == galer || con.path[0] == container2){
+        galer.remove();
+        container2.remove();
+        closeImg.remove();
+        galerImg.remove();
+      }
+    });
 
   })
 });
@@ -68,6 +86,4 @@ container2.appendChild(galerImg);
 galer.appendChild(container2);
 body.insertBefore(galer, contact);
 */
-
-
 
