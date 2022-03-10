@@ -1,0 +1,19 @@
+rules =>
+
+1. halaman harus memiliki element id dengan nilai main (id="main") yang sesuai dengan isinya, yang berisi semua element lainnya.
+
+2. harus memiliki id="title" yang berisi penjelasan halaman penghormatan, contohnya (Dr. Norman Borlaug).
+
+3. memiliki element figure atau div dengan id="img-div"
+
+4. didalam img-div harus terdapat element img dengan id="image"
+
+5. didalam img-div harus terdapat id="img-caption" yang berisi penjelasan dari gambar tsb.
+
+6. harus memiliki id="tribute-info" yang berisikan informasi tentang penghormatan tersebut
+
+7. harus memiliki tag anchor (a) dengan id="tribute-link" yang berisi link ke halaman luar tentang informasi tambahan terkait penghormatan tersebut. petunjuk : harus memberi element target dengan value _blank (target="_blank") agar membuka tab baru saat diklik link tersebut.
+
+8. img harus responsive, dan relative terhadap lebar/width dari element parentnya, tanpa melebihi ukuran aslinya.
+
+9. element img harus berada pada center didalam element parentnya.
